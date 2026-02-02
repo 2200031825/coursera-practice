@@ -5,6 +5,8 @@ body{
     align-items: center;
     padding: auto;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
 }
 
 hr{
