@@ -16,3 +16,9 @@ body {
 hr {
   color: black;
 }
+
+footer
+{
+    align-items: center;
+    justify-content: center;
+}
