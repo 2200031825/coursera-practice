@@ -4,6 +4,7 @@ body{
     background: white;
     align-items: center;
     padding: auto;
+    flex-direction: column;
 }
 
 hr{
