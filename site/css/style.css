@@ -1,14 +1,18 @@
-body{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    background: white;
-    align-items: center;
-    padding: auto;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+
+  height: 100vh;
+  margin: 0;
 }
 
-hr{
-    color: black;
+hr {
+  color: black;
 }
