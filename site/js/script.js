@@ -1,3 +1,6 @@
-function sayHello() {
-  alert("Hello from the developer!!  Developer welcomes u");
+function Login() {
+  window.location.href = "Home.html";
+}
+function Logout() {
+  window.location.href = "index.html";
 }

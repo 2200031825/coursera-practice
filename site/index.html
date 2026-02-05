@@ -6,16 +6,21 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Sample</title>
   </head>
-  <body>
-    <h1>Hello coursera</h1>
-    <p>Assignment is completed</p>
-    <button onclick="sayHello()">Click me</button>
-    <script src="js/script.js"></script>
+  <body class="body">
+    <video autoplay muted loop class="bg-video">
+      <source src="Video.mp4" type="video/mp4" />
+    </video>
+    <div class="container">
+      <h2 style="text-transform: uppercase">Login</h2>
+      <label>Username</label>
+      <input placeholder="username" />
+      <label>Password</label>
+      <input placeholder="Password" type="password" />
+      <script src="js/script.js"></script>
+      <button class="button" onclick="Login()">Login</button>
+    </div>
+    <footer>
+      <p>All rights reserved to &copy; Nithish 2026</p>
+    </footer>
   </body>
-
-  <footer>
-    <p onclick="alert('Em chusthunnav ra puka dengai em led ikkada')">
-      Any queries? contact us.
-    </p>
-  </footer>
 </html>
